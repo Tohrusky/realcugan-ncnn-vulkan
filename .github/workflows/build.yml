@@ -153,5 +153,5 @@ jobs:
     - name: upload
       uses: actions/upload-artifact@v3
       with:
-        name: build_vulkan_1_2_162_1
+        name: realcugan-ncnn-vulkan-macos
         path: ${{ env.PACKAGENAME }}.zip
